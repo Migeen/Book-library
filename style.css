@@ -24,6 +24,18 @@ h1{
     font-family: sans-serif;
 }
 
+.main{
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+
+.here{
+    padding: 20px;
+    width: auto;
+    height: 100vh;
+}
+
 .container{
     width: 100%;
     height: auto;
@@ -55,6 +67,23 @@ h1{
     flex-direction: column;
     align-items: center;
     padding: 20px;
+}
+
+.delete-div{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.delete-btn{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(37, 36, 36);
+    border: none;
+    color: rgb(192, 179, 122);
+    cursor: pointer;
+    font-weight: 600;
 }
 
 .title{

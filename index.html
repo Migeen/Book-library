@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Book Library</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
@@ -13,9 +13,6 @@
 <body>
     <div class="heading">
         <h1>My Library</h1>
-    </div>
-    <div class="add">
-        <button class="plus" id="plus"><i class="fa fa-plus" aria-hidden="true"></i></button>
     </div>
     <div class="modal">
         <div class="close">
@@ -26,16 +23,24 @@
         <label class="label">Author</label>
         <input class="input" type="text" name="author" id="author">
         <label class="label">No of Pages</label>
-        <input class="input" type="text" name="pages" id="pages">
+        <input class="input" type="text" name="pages" id="page">
         <div class="check"> 
-            <p>Have you read the book</p>
+            <p>Have you read the book?</p>
             <input type="checkbox" id="read">
         </div>
         <button class="save" id="save">Save</button>
     </div>
-    <div class="container">
-        
+    <div class="main">
+        <div class="here">
+            <div class="add">
+                <button class="plus" id="plus"><i class="fa fa-plus" aria-hidden="true"></i></button>
+            </div>
+        </div>
+        <div class="container">
+    
+        </div>
     </div>
+
     <script src="main.js"></script>
 </body>
 
