@@ -11,27 +11,30 @@
 </head>
 
 <body>
-    <h1>My Library</h1>
+    <div class="heading">
+        <h1>My Library</h1>
+    </div>
+    <div class="add">
+        <button class="plus" id="plus"><i class="fa fa-plus" aria-hidden="true"></i></button>
+    </div>
+    <div class="modal">
+        <div class="close">
+            <button id="close"><i class="fa fa-times" aria-hidden="true"></i></button>
+        </div>
+        <label class="label">Title:</label>
+        <input class="input" type="text" name="title" id="title">
+        <label class="label">Author</label>
+        <input class="input" type="text" name="author" id="author">
+        <label class="label">No of Pages</label>
+        <input class="input" type="text" name="pages" id="pages">
+        <div class="check"> 
+            <p>Have you read the book</p>
+            <input type="checkbox" id="read">
+        </div>
+        <button class="save" id="save">Save</button>
+    </div>
     <div class="container">
-        <div class="add">
-            <button class="plus" id="plus"><i class="fa fa-plus" aria-hidden="true"></i></button>
-        </div>
-        <div class="modal">
-            <div class="close">
-                <button id="close"><i class="fa fa-times" aria-hidden="true"></i></button>
-            </div>
-            <label class="label">Title:</label>
-            <input class="input" type="text" name="title" id="title">
-            <label class="label">Author</label>
-            <input class="input" type="text" name="author" id="author">
-            <label class="label">No of Pages</label>
-            <input class="input" type="text" name="pages" id="pages">
-            <div class="check"> 
-                <p>Have you read the book</p>
-                <input type="checkbox" id="read">
-            </div>
-            <button class="save">Save</button>
-        </div>
+        
     </div>
     <script src="main.js"></script>
 </body>
