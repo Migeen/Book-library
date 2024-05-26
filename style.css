@@ -83,7 +83,11 @@ h1{
     border: none;
     color: rgb(192, 179, 122);
     cursor: pointer;
-    font-weight: 600;
+    font-size: 18px;
+}
+
+.delete-btn:hover{
+    color: rgb(184, 165, 82);
 }
 
 .title{

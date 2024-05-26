@@ -6,14 +6,14 @@ const saveBtn = document.querySelector('#save');
 
 const myLibrary =[
     {
-        title:'The Ouja',
-        author:'lalala',
+        title:'The OujaAdventures of Tom Sawyer',
+        author:'Mark Twain',
         pages:267,
         read:'read'
     },
     {
-        title:'python programming',
-        author:'migeen magar',
+        title:'Animal Farm',
+        author:'George Orwell',
         pages:500,
         read:'unread'
     }
@@ -41,7 +41,7 @@ function addBookToLibrary(){
         const deleteBtn = document.createElement('button');
         deleteBtn.classList.add(`delete-btn-${index}`)
         deleteBtn.classList.add('delete-btn');
-        deleteBtn.innerHTML = 'delete';
+        deleteBtn.innerHTML= '<i class="fa fa-trash" aria-hidden="true"></i>'
 
         const title = document.createElement('p');
         title.innerHTML = x.title;
